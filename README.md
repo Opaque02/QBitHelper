@@ -34,4 +34,6 @@ Typing $status movies completed will show all movies that have completed downloa
 
 Typing $status all will show everything - all movies/tv shows currently downloading AND currently completed!
 
+By default, the output will have everything that's not completed in descending order, so the things closest to completion will be at the top, and as you scroll down, it'll get closer to 0%. After all that, if there's anything that's 100% done, it'll show up at the end of the list
+
 And with that, you should be good to go! Sorry again this was long winded! I hope you enjoy it, and that it works nicely for you! As I said, I'm not a programmer in any fashion, so there may be bugs that I may not be able to fix, but I'm also super happy for whoever to work on it as you see fit! If you make any cool updates, let me know!
