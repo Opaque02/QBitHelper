@@ -35,7 +35,7 @@ def filterList(FullList,filterType):
     return SortedList
 
 def renameStates(FullList):
-    completedList=["uploading","pausedUP","checkingUP"]
+    completedList=["uploading","pausedUP","checkingUP","stalledUP","forcedUP"]
     downloadingList=["downloading"]
     missingList=["missingFiles"]
     stalledList=["stalledDL"]
