@@ -246,7 +246,7 @@ bot = interactions.Client(token=TOKEN)
         ),
     ],
 )
-async def status(ctx: interactions.CommandContext, status = "all", category = "all"):
+async def status(ctx: interactions.CommandContext, status = "downloading", category = "all"):
     channelID = ctx.channel_id
     if botChannel == int(channelID):
         if "all" in status:
